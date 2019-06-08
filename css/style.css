@@ -54,7 +54,7 @@ body a{
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    min-height:500px;	
+    min-height:400px;	
 }
 .banner_1{
     background:url(../images/banner_1.jpg)    ;	

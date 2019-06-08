@@ -56,6 +56,14 @@ body a{
     -o-background-size:cover;
     min-height:400px;	
 }
+.banner_6{
+	background:url(../images/banner_6.jpg)no-repeat center top;
+	background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    min-height:400px;	
+}
 .banner_1{
     background:url(../images/banner_1.jpg)    ;	
     background-size:cover;

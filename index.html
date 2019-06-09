@@ -69,6 +69,16 @@
 						<a href="index1.html">Logout</a>
 					</li>
 				</ul>
+				<!-- <ul>
+					<div id="search_form" class="clearfix">
+						<p>
+							<input type="text" class="text" placeholder="Enter Keyword(s) ">
+							<label class="btn2 btn-2 btn2-1b">
+								<input type="submit" value="Search">
+							</label>
+						</p>
+					</div>
+				</ul> -->
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -76,50 +86,13 @@
 	</nav>
 	<div class="banner">
 		<div class="container">
-			<!-- <div id="search_form" class="clearfix">
-						<p>
-							<input type="text" class="text" placeholder="Enter Keyword(s) ">
-							<label class="btn2 btn-2 btn2-1b">
-								<input type="submit" value="Search">
-							</label>
-						</p>
 
-					</div> -->
 		</div>
 	</div>
 	<div class="container">
 		<div class="single">
 			<div class="col-md-3">
 				<div class="col_3">
-<<<<<<< HEAD
-=======
-					<h3 style="text-align:center">Most Read</h3>
-					<center>
-						<a href="single.html">
-							<img src="images/a5.png" class="" alt="" style="width: 200px" />
-							<p>A quick but complete guide to IndexedDB and storing data in browsers</p>
-						</a>
-					</center>
-					</br>
-					<center>
-						<a href="single.html">
-							<img src="images/a9.png" class="" alt="" style="width: 200px" />
-							<p>5 emerging programming languages with a bright future</p>
-						</a>
-					</center>
-					</br>
-					<center>
-						<a href="single.html">
-							<img src="images/a8.png" class="" alt="" style="width: 200px" />
-							<p>Facebook blocks installs on Huawei phones</p>
-						</a>
-					</center>
-
-				</div>
-
-				<hr>
-				<div class="col_3">
->>>>>>> 49d89a117bcca78bd13634abd4245dc3b592421f
 					<h3 style="text-align:center" href>Category</h3>
 					<center>
 						<ul class="list_1">
@@ -174,29 +147,8 @@
 			<div class="col-md-9">
 				<div class="col_3">
 					<h3 style="text-align:center">Latest Posts</h3>
-<<<<<<< HEAD
-=======
 				</div>
-				<div class="col_1">
-					<div class="col-sm-4 row_2">
-						<a href="boostrapNews1.html">
-							<img src="images/a2.png" class="img-responsive" alt="" />
-						</a>
-					</div>
-					<div class="col-sm-8 row_1">
-						<h4>
-							<a href="boostrapNews1.html">$30k on credit cards: what bootstrapping a company really looks like</a>
-						</h4>
-						<h6>DanPierson
-							<span class="dot">·</span> Jun. 6, 2019</h6>
-						<p>If you believe the hype, there are two ways to start a company: 1. Pound the pavement and raise money from venture
-							capitalists, giving away control and equity in your company and...</p>
 
-					</div>
-					<div class="clearfix"> </div>
->>>>>>> 49d89a117bcca78bd13634abd4245dc3b592421f
-				</div>
-				
 				<div class="col_1">
 					<div class="col-sm-4 row_2">
 						<a href="single.html">
@@ -289,71 +241,72 @@
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-
 			</div>
-			<div class="clearfix"> </div>
 		</div>
 	</div>
-	<hr>
+		
+	<div class="container" >
+			<ul class="pager">					
+					<center>				
+							<li><a href="index2.html">Next</a></li>
+					</center>
+			</ul>
+	</div>
 	<hr>
 	<div class="footer_bottom">
 		<div class="container">
-		<div class="copy">
-		<p>Copyright © 2019 Seeking . All Rights Reserved . Design by itNews </p>
-		</br>
-		<p>Contact: itNews@programming.gmail.com</p> </br>
-		<p>Head office: 10th floor, C building - km9 Nguyen Trai street - Thanh Xuan district - Hanoi.</i></p>
-	</div>
-	</div>
+			<div class="copy">
+				<p>Copyright © 2019 Seeking . All Rights Reserved . Design by itNews </p>
+				</br>
+				<p>Contact: itNews@programming.gmail.com</p>
+				</br>
+				<p>Head office: 10th floor, C building - km9 Nguyen Trai street - Thanh Xuan district - Hanoi.</i>
+				</p>
+			</div>
+		</div>
 	</div>
 
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	<script>
 		// When the user scrolls down 20px from the top of the document, show the button
-		window.onscroll = function() {scrollFunction()};
-		
+		window.onscroll = function () { scrollFunction() };
+
 		function scrollFunction() {
-		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			document.getElementById("myBtn").style.display = "block";
-		  } else {
-			document.getElementById("myBtn").style.display = "none";
-		  }
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
 		}
-		
+
 		// When the user clicks on the button, scroll to the top of the document
 		function topFunction() {
-		  document.body.scrollTop = 0;
-		  document.documentElement.scrollTop = 0;
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
 		}
-		</script>
-		<style>
-			body {
-			  font-family: Arial, Helvetica, sans-serif;
-			  font-size: 20px;
-			}
-			
-			#myBtn {
-			  display: none;
-			  position: fixed;
-			  bottom: 20px;
-			  right: 30px;
-			  z-index: 99;
-			  font-size: 18px;
-			  border: none;
-			  outline: none;
-			  background-color: red;
-			  color: white;
-			  cursor: pointer;
-			  padding: 15px;
-			  border-radius: 4px;
-			}
-			
-			#myBtn:hover {
-			  background-color: #555;
-			}
-			</style>
+	</script>
+	<style>
+		#myBtn {
+			display: none;
+			position: fixed;
+			bottom: 20px;
+			right: 30px;
+			z-index: 99;
+			font-size: 18px;
+			border: none;
+			outline: none;
+			background-color: red;
+			color: white;
+			cursor: pointer;
+			padding: 15px;
+			border-radius: 4px;
+		}
+
+		#myBtn:hover {
+			background-color: #555;
+		}
+	</style>
 
 </body>
-
 
 </html>

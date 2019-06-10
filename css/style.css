@@ -2815,3 +2815,16 @@ ul.grid-1 li.grid-1_right h4, ul.grid-1 li.grid-1_left h4 {
     background: url(../images/arrows.png) no-repeat -18px 0px;
     background-size: 184%;
 }
+.nav .navbar-default{
+    /* text-align: center; */
+    /* background: rgba(20%, 100%, 20%, .5); */
+    /* border: 1px solid white;  */
+    /* border-radius:8px; */
+    /* width:40%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    /* font-family: serif; */
+    /* font-size: 1.8vw; */
+}
+}
